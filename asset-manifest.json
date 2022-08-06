@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Subreddit-Info/static/css/main.eedd3462.css",
+    "main.js": "/Subreddit-Info/static/js/main.905137cb.js",
+    "index.html": "/Subreddit-Info/index.html",
+    "main.eedd3462.css.map": "/Subreddit-Info/static/css/main.eedd3462.css.map",
+    "main.905137cb.js.map": "/Subreddit-Info/static/js/main.905137cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eedd3462.css",
+    "static/js/main.905137cb.js"
+  ]
+}
