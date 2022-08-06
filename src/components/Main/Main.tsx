@@ -1,6 +1,7 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import SearchStart from "../SearchStart/SearchStart";
 import About from "../About/About";
+
 import SubredditInfo from "../SubredditInfo/SubredditInfo";
 
 export default function Main() {
