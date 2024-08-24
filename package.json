@@ -10,6 +10,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.4.0",
@@ -20,7 +21,7 @@
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
   },
-  "homepage": "",
+  "homepage": "https://ChristopherVidal.github.io/Subreddit-Info/",
   "scripts": {
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
@@ -48,6 +49,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^6.1.1"
   }
 }

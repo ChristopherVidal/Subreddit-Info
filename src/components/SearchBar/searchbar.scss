@@ -1,0 +1,25 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins/breakpoints";
+@import "../../scss/overrides";
+
+form {
+  width: 100%;
+}
+
+.small-searchbar-box {
+  height: auto;
+}
+
+.large-searchbar-box {
+  height: auto;
+}
+
+@include media-breakpoint-up(md) {
+  .large-searchbar-box {
+    height: 75vh;
+  }
+  form {
+    width: 50%;
+  }
+}

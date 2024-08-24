@@ -7,11 +7,11 @@ import "./mynavbar.scss";
 export default function MyNavBar() {
   return (
     <Navbar expand="sm" bg="light">
-      <Container fluid>
-        <NavLink className="fs-3 me-2 nav-link" to="/subreddit-info">
-          Get Subreddit Info
+      <Container fluid id="navContainer">
+        <NavLink className="fs-4 me-2 nav-link" to="/subreddit-info">
+          [Get Subreddit Info]
         </NavLink>
-        <Navbar.Text className="">(Learn about a subreddit!)</Navbar.Text>
+        <Navbar.Text>(Learn about a subreddit!)</Navbar.Text>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <NavLink className=" nav-link" to="/about">
